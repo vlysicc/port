@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-image: url('aa.jpg'); /* Abstract Art */
+      background-size: cover;
+      background-attachment: fixed;
+      color: white;
+    }
+    .nav-link {
+      color: white !important;
+    }
+    .section {
+      padding: 100px 0;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+    .gallery img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#favorites">Favorites</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Front Page Section -->
+  <section id="front" class="front-page">
+    <div class="container">
+      <div class="d-flex justify-content-center">
+      <img src="pic1.jpg" alt="Your Profile Picture">
+      </div>
+      <h1 class="display-4">Hi, I'm Lovely</h1>
+      <p class="lead">Welcome to my creative space.</p>
+        <div class="d-flex justify-content-center">
+        <a href="#home" class="btn btn-primary btn-lg">Get Started</a>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Home Section -->
+  <section id="home" class="section text-center">
+    <div class="container">
+      <h1 class="display-4">Hi, I'm Lovely Ortega</h1>
+      <p class="lead">Creative, expressive, and inspired by the beauty of art.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section text-center">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am an artist passionate about visual storytelling and design. My portfolio showcases my journey and works.</p>
+    </div>
+  </section>
+
+  <!-- Favorites Section -->
+  <section id="favorites" class="section text-center">
+    <div class="container">
+      <h2>My Favorite Works</h2>
+      <div class="row gallery">
+        <div class="col-md-4">
+          <img src="Draw1.jpeg" alt="Abstract Art 1">
+        </div>
+        <div class="col-md-4">
+          <img src="Draw2.jpeg" alt="Abstract Art 2">
+        </div>
+        <div class="col-md-4">
+          <img src="Draw3.jpeg" alt="Abstract Art 3">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section text-center">
+    <div class="container">
+      <h2>Contact</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Address</h5>
+          <p>15 Camia St. Bagong Barrio Caloocan City</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Gmail</h5>
+          <p>ortegalovely015@gmail.com</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Contact Number</h5>
+          <p>09388433040</p>
+        </div>
+      </div>
+      <div class="mt-4">
+        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
